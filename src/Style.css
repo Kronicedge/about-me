@@ -1,0 +1,77 @@
+h1:first-of-type {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.about_me img {
+    width:403.2px;
+    height:302.4px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.helio, .links, .contact{
+    clear: both;
+}
+
+
+.work_experience div h3 {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: rgb(201, 201, 201);
+    padding-left: 20px;
+    font-style: italic;
+}
+ 
+.work_experience div:nth-of-type(odd) {
+    background-color: rgb(114, 241, 171);
+    border: 2px solid;
+    
+}
+
+.work_experience div:nth-of-type(even) {
+
+    background-color: rgb(109, 195, 235);
+    border: 2px solid;
+}
+
+.contact form div{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.contact form:not(:last-child) {
+    width: 150px;
+
+}
+
+.contact form div:nth-of-type(1) label {
+    margin-right: 21px;
+}
+
+.contact form div:nth-of-type(2) label {
+    margin-right: 25px;
+}
+
+.contact form div:nth-of-type(3) label {
+    margin-right: 5px;
+}
+
+.contact form div:last-of-type input {
+    margin-left: 68px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
