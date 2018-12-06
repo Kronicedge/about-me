@@ -6,9 +6,8 @@ class WorkExperience extends Component {
     render() {
         return (
             <div className="work_experience">
-                
-                <h1>My Work Experience</h1>
                 <header>
+                    <h1>Myles's Work Experience</h1>
                     <SiteNav>
                     </SiteNav>
                 </header>
