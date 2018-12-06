@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import './Style.css';
+import SiteNav from './SiteNav'
 
 
 class AboutMe extends Component {
     render() {
         return (
+
             <div className="about_me">
-                <h1>Myles Timothy</h1>
+                <h1>About Me</h1>
+                <header>
+                    <SiteNav>
+                    </SiteNav>               
+                </header>
+                
                 <section className="bio">
                     <img src="https://media.licdn.com/dms/image/C5603AQFW773b85y_Nw/profile-displayphoto-shrink_200_200/0?e=1547683200&v=beta&t=QpRd56M4dViJw99AvSlb-oktg5_ayruUFuEe7UJBE5I" />
                     <span>

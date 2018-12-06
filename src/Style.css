@@ -5,6 +5,15 @@ h1:first-of-type {
     font-size: 40px;
 }
 
+.menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu a {
+    margin-right: 10px;
+}
+
 .about_me img {
     width:403.2px;
     height:302.4px;

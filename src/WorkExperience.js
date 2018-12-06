@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './Style.css';
+import SiteNav from './SiteNav'
 
 class WorkExperience extends Component {
-    render () {
+    render() {
         return (
             <div className="work_experience">
+                
                 <h1>My Work Experience</h1>
+                <header>
+                    <SiteNav>
+                    </SiteNav>
+                </header>
+                 
                 <section>
                     <div className="experience_entry">
                         <h3>
