@@ -5,7 +5,7 @@ import AboutMe from './AboutMe.js'
 import WorkExperience from './WorkExperience.js'
 
 class App extends Component {
-  render() {
+  render = () => {
     return (
       <Router>
         <div className="App">

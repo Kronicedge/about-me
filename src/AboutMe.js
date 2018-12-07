@@ -35,7 +35,7 @@ class AboutMe extends Component {
                 <section className="links">
                     <h3>Other Info</h3>
                     <ul>
-                        <li><a href="/workexperience">Work Experience</a></li>
+                        <li><a href="/work-history">Work Experience</a></li>
                         <li><a href="https://www.linkedin.com/in/myles-timothy-102725146/">My LinkedIn Profile</a></li>
                         <li><a href="https://github.com/Kronicedge">My Github profile</a></li>
                     </ul>
