@@ -7,7 +7,8 @@ class SiteNav extends Component {
         return (
             <nav className='menu'>
                 <Link to={'/'}>Home</Link>
-                <Link to={'work-history'}>Work History</Link>
+                <Link to={'/work-history'}>Work History</Link>
+                <Link to={'/projects-page'}>ProjectsPage</Link>
             </nav>
         )
     }
